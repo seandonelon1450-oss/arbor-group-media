@@ -17,6 +17,7 @@
 | BIZHAUS™, GUTTERHAUS™, AMPLIFY™, Missed-Call Rescue™ | Word marks | 2026-10-10/11 | gutterhaus-demo (live); brand shorts 01–03, 06 |
 | HOMEPLACE SUCCESSION™ | Service mark | 2026-10-10 | succession-checker (live); Wix site (live); brand short 02 |
 | BISCUIT™ | Word mark | 2026-10-02 | furbaby-v1 app; pup image series |
+| Living Code™ | Word mark / coined concept | 2026-10-13 | Coined by Sean T. Donelon 2026-10-13: "living code — it changes like fluid dynamics; the artificial agentic intelligence works the same way." Software philosophy behind ArborTech™; first written use: founder materials + Arbor Law firm outreach draft, 2026-10-13 |
 
 ## Specimen URLs (public, third-party timestamped)
 - YouTube playlist: https://www.youtube.com/playlist?list=PLJThIfx2r3Vk (10 Shorts, 2026-10-12)
