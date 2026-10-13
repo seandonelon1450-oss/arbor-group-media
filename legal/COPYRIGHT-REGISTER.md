@@ -16,6 +16,11 @@
 | **ARBORTECH tech summary** — the three-intelligences framing (G.A.U.G.E. / KIARA / VESTA) | Written work | 2026-10-12 | ARBORTECH-SUMMARY-FOR-AI.md |
 | Commercial scripts + films (LEGALHAUS, BIZHAUS, loop, guard, Audrey × Vivian sets) | Audiovisual works + scripts | 2026-10-11/13 | ~/workspace/arbor-marketing-co/commercials/; public TikTok posts (dated) |
 | The Introduction film (2-minute) + script | Audiovisual work | 2026-10-13 | ~/workspace/arbor-marketing-co/commercials/ |
+| **OURVODE™** — the name Sean states his original code is trademarked under (the same body of code in this register) | Trademark name for the code body of work | Stated 2026-10-13 | This register + timestamped public commit; spelling exactly as Sean dictated it ("ourvode") — stylization confirmation pending |
+
+## Addendum — October 13, 2026 (Sean's statement, recorded at his direction)
+
+Sean T. Donelon states that his original code — the body of work described in this register, the code the Arbor systems run on, and the code both his and Thomas G. Donelon's Muse workspaces are being set up on — is trademarked under the name **OURVODE™**. Recorded and timestamped for the family records. Note: as with the other marks in this register, this is a common-law (™) claim recorded with a dated third-party timestamp; no federal filing has been made.
 
 ## Statement
 
