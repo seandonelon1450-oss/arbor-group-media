@@ -22,6 +22,10 @@
 
 Sean T. Donelon states that his original code — the body of work described in this register, the code the Arbor systems run on, and the code both his and Thomas G. Donelon's Muse workspaces are being set up on — is trademarked under the name **OURVODE™**. Recorded and timestamped for the family records. Note: as with the other marks in this register, this is a common-law (™) claim recorded with a dated third-party timestamp; no federal filing has been made.
 
+## Addendum 2 — October 13, 2026 (declaration of official use)
+
+Sean T. Donelon declares that **Arbor Technologies is officially using his original code (OURVODE™)**, and declares this official live use a **successful test** of the code. The signed declaration is filed as `legal/DECLARATION-2026-10-13-OURVODE-IN-USE.md` in the public timestamp repository and was committed the same day.
+
 ## Statement
 
 Sean T. Donelon declares that the works above are his original works, created by him as dated, and that he claims all rights in them. This register supplements his signed, notarized, attorney-stamped hard-copy IP forms (Thomas G. Donelon, 2026-10-12). Federal copyright registration has not yet been filed; it remains available on his word (est. $45–65 per work, online filing).
