@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arbor Group Media</title>
+<style>
+  :root {
+    --bg: #0d0f0c;
+    --panel: #15180f;
+    --line: #2a2e22;
+    --ink: #ece7d8;
+    --muted: #9a9a86;
+    --gold: #c9a227;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 16px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  }
+  header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 28px 32px;
+    border-bottom: 1px solid var(--line);
+  }
+  header img { width: 64px; height: 64px; object-fit: contain; }
+  h1 { margin: 0; font-size: 22px; letter-spacing: 0.14em; text-transform: uppercase; font-weight: 600; }
+  header p { margin: 2px 0 0; color: var(--muted); font-size: 13px; letter-spacing: 0.04em; }
+  main { padding: 32px; max-width: 1320px; margin: 0 auto; }
+  section { margin-bottom: 48px; }
+  h2 {
+    font-size: 12px;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    font-weight: 600;
+    margin: 0 0 16px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--line);
+  }
+  .grid { display: grid; gap: 18px; }
+  .videos { grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+  .stills { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); }
+  .card {
+    background: var(--panel);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .card video { display: block; width: 100%; aspect-ratio: 16 / 9; background: #000; }
+  .card img { display: block; width: 100%; aspect-ratio: 1 / 1; object-fit: cover; }
+  .logos .card img { aspect-ratio: 4 / 3; object-fit: contain; padding: 14px; background: #f7f5ef; }
+  .card p {
+    margin: 0;
+    padding: 10px 12px;
+    font-size: 12.5px;
+    color: var(--muted);
+    letter-spacing: 0.02em;
+  }
+  .logos { grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); }
+  ul.docs { list-style: none; margin: 0; padding: 0; }
+  ul.docs li { border-bottom: 1px solid var(--line); }
+  ul.docs a {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 12px 4px;
+    color: var(--ink);
+    text-decoration: none;
+    font-size: 14px;
+  }
+  ul.docs a:hover { color: var(--gold); }
+  ul.docs span { color: var(--muted); font-size: 12px; }
+  footer {
+    padding: 24px 32px 48px;
+    color: var(--muted);
+    font-size: 12px;
+    border-top: 1px solid var(--line);
+  }
+</style>
+</head>
+<body>
+<header>
+  <img src="/logos/arbor-group-logo-selected.webp" alt="Arbor Group logo">
+  <div>
+    <h1>The Arbor Group</h1>
+    <p>Media library &amp; legal record — 11 videos, 4 logos, 16 stills, 6 records</p>
+  </div>
+</header>
+
+<main>
+  <section>
+    <h2>Brand marks</h2>
+    <div class="grid logos">
+      <div class="card"><img src="/logos/arbor-group-logo-selected.webp" alt="Selected Arbor Group logo"><p>Selected mark</p></div>
+      <div class="card"><img src="/logos/media-generation-arbor-group-logo-tree-ring-0-5d14757f-714e-4913-bf65-feeaa072445e.webp" alt="Tree ring logo"><p>Tree ring</p></div>
+      <div class="card"><img src="/logos/media-generation-arbor-group-logo-heritage-seal-0-54aeddab-ae61-447f-a7d8-545bdf0e9581.webp" alt="Heritage seal logo"><p>Heritage seal</p></div>
+      <div class="card"><img src="/logos/media-generation-arbor-group-logo-branch-a-0-fff06c32-f638-4034-b9d8-29ed697a723d.webp" alt="Branch A logo"><p>Branch A</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Short-form video</h2>
+    <div class="grid videos">
+      <div class="card"><video controls preload="metadata" src="/videos/media-generation-arbortech-sting-0-450bfc68-4b63-4683-be7e-9a5dbf18982b.mp4"></video><p>ArborTech sting</p></div>
+      <div class="card"><video controls preload="metadata" src="/videos/media-generation-short-01-gutterhaus-friendly-0-4aedf5fa-cf05-4117-ab9b-9c43d270a5b9.mp4"></video><p>01 — GutterHaus, friendly</p></div>
+      <div class="card"><video controls preload="metadata" src="/videos/media-generation-short-02-arbor-law-friendly-0-35a39035-f9e6-4998-9bb8-a561f7e8dfbf.mp4"></video><p>02 — Arbor Law, friendly</p></div>
+      <div class="card"><video controls preload="metadata" src="/videos/media-generation-short-03-missed-call-friendly-0-9b8a9167-c15e-4f55-a92d-2ad3e30f2081.mp4"></video><p>03 — Missed call, friendly</p></div>
+      <div class="card"><video controls preload="metadata" src="/videos/media-generation-short-04-audrey-brief-0-9610b824-4580-43b0-b25a-91e4196fd34c.mp4"></video><p>04 — Audrey brief</p></div>
+      <div class="card"><video controls preload="metadata" src="/videos/media-generation-short-05-vike-safety-0-d627950d-576d-4eb7-aab2-6732763019ab.mp4"></video><p>05 — Vike safety</p></div>
+      <div class="card"><video controls preload="metadata" src="/videos/media-generation-short-06-amplify-0-2804597a-a09a-4057-95b0-09472e447fb0.mp4"></video><p>06 — Amplify</p></div>
+      <div class="card"><video controls preload="metadata" src="/videos/media-generation-short-07-gold-dot-anthem-frien-0-65fcf005-95fe-4482-9edf-68571a7096e3.mp4"></video><p>07 — Gold dot anthem</p></div>
+      <div class="card"><video controls preload="metadata" src="/videos/media-generation-short-08-rollcall-montage-0-cf8b5ae6-1554-43a4-9105-5f09d5bba173.mp4"></video><p>08 — Rollcall montage</p></div>
+      <div class="card"><video controls preload="metadata" src="/videos/media-generation-short-09-tessa-safe-0-80f17111-43c3-4433-a15d-f5e94f3c486e.mp4"></video><p>09 — Tessa</p></div>
+      <div class="card"><video controls preload="metadata" src="/videos/media-generation-vesta-friendly-animated-0-7b7c269c-d487-4cf9-a792-86d8a01fbf92.mp4"></video><p>Vesta, animated</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Agent portraits</h2>
+    <div class="grid stills">
+      <div class="card"><img src="/bots/media-generation-audrey-haus-style-0-40e88ba7-dc2e-4a10-aaff-f757408b3f8f.jpg" alt="Audrey, house style"><p>Audrey — house style</p></div>
+      <div class="card"><img src="/bots/media-generation-audrey-humanoid-0-67dd98d1-8b97-40dd-a1f8-55cae92546a2.jpg" alt="Audrey, humanoid"><p>Audrey — humanoid</p></div>
+      <div class="card"><img src="/bots/media-generation-bronson-haus-style-0-6edad6d1-7b8c-4c66-b905-a65eed17f651.jpg" alt="Bronson, house style"><p>Bronson — house style</p></div>
+      <div class="card"><img src="/bots/media-generation-bronson-humanoid-0-60aa9b02-5ecb-47c7-a99b-e4fd73863924.jpg" alt="Bronson, humanoid"><p>Bronson — humanoid</p></div>
+      <div class="card"><img src="/bots/media-generation-kiara-haus-style-0-b1dd520f-ba9c-4b86-a45d-547227a08ff8.jpg" alt="Kiara, house style"><p>Kiara — house style</p></div>
+      <div class="card"><img src="/bots/media-generation-kiara-humanoid-0-14029fc7-90dd-433b-863b-3c6001f7aa92.jpg" alt="Kiara, humanoid"><p>Kiara — humanoid</p></div>
+      <div class="card"><img src="/bots/media-generation-liam-haus-style-v3-0-84f41f85-8202-43e9-9547-5c6cdb20aad1.jpg" alt="Liam, house style"><p>Liam — house style</p></div>
+      <div class="card"><img src="/bots/media-generation-liam-humanoid-0-12711cd0-8a5f-48fb-adfe-13191779d378.jpg" alt="Liam, humanoid"><p>Liam — humanoid</p></div>
+      <div class="card"><img src="/bots/media-generation-tessa-haus-style-0-ec9c5153-2e8a-4ad8-9cf4-7db6010d419c.jpg" alt="Tessa, house style"><p>Tessa — house style</p></div>
+      <div class="card"><img src="/bots/media-generation-vera-haus-style-0-6a8c5147-921c-43cb-89ae-6587a2fb4066.jpg" alt="Vera, house style"><p>Vera — house style</p></div>
+      <div class="card"><img src="/bots/media-generation-vera-humanoid-0-98aaf6d6-4af5-4618-9175-984d6ddbf7aa.jpg" alt="Vera, humanoid"><p>Vera — humanoid</p></div>
+      <div class="card"><img src="/bots/media-generation-vicky-haus-style-0-9b73cd24-3151-45f7-8c73-9865c5405d38.jpg" alt="Vicky, house style"><p>Vicky — house style</p></div>
+      <div class="card"><img src="/bots/media-generation-vicky-humanoid-0-393590c3-25ba-4a06-9dea-6be6cc33d948.jpg" alt="Vicky, humanoid"><p>Vicky — humanoid</p></div>
+      <div class="card"><img src="/bots/media-generation-vivian-humanoid-0-79458877-0af2-4e6d-95c7-4e4684a0ea85.jpg" alt="Vivian, humanoid"><p>Vivian — humanoid</p></div>
+      <div class="card"><img src="/bots/media-generation-vivian-queen-0-66452a12-3ea9-4b19-a2b4-7c5b800740fe.jpg" alt="Vivian, queen"><p>Vivian — queen</p></div>
+      <div class="card"><img src="/bots/media-generation-vesta-arbor-prime-friendly-0-0aa83575-ea4c-4c62-a4c6-fe05672ce8b1.webp" alt="Vesta, arbor prime friendly"><p>Vesta — arbor prime</p></div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Legal record</h2>
+    <ul class="docs">
+      <li><a href="/TIMESTAMP-MANIFEST-2026-10-19.md">Timestamp manifest — 15 codebases sealed <span>2026-10-19</span></a></li>
+      <li><a href="/legal/LEGAL-RECORD-INDEX.md">Legal record index <span>2026-10-19</span></a></li>
+      <li><a href="/legal/LEGAL-RECORD-LOG.md">Legal record log <span>running</span></a></li>
+      <li><a href="/legal/RECORD-FINGERPRINTS-2026-10-19.txt">Record fingerprints (SHA-256) <span>2026-10-19</span></a></li>
+      <li><a href="/legal/COPYRIGHT-REGISTER.md">Copyright register <span>2026-10-13</span></a></li>
+      <li><a href="/legal/DECLARATION-2026-10-13-OURVODE-IN-USE.md">OURVODE™ in-use declaration <span>2026-10-13</span></a></li>
+      <li><a href="/legal/COMMON-LAW-TIMESTAMP-2026-10-12.md">Common-law trademark timestamp <span>2026-10-12</span></a></li>
+      <li><a href="/legal/LIVING-CODE-ONE-PAGER.md">Living Code™ — one pager <span>2026-10-13</span></a></li>
+    </ul>
+  </section>
+</main>
+
+<footer>Arbor Group media library — served from the repository checkout.</footer>
+</body>
+</html>
